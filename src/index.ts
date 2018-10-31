@@ -176,7 +176,7 @@ export class CrudRequest {
         this.$config.callbacks.notify(options);
     }
 
-    chooseFile<T>(options: any): Promise<T> {
+    chooseFile<T>(options?: any): Promise<T> {
         return this.$config.callbacks.chooseFile(options);
     }
 }

@@ -42,5 +42,5 @@ export declare class CrudRequest {
     prompt(options: any): Promise<any>;
     dialog(name: string, options: any): Promise<any>;
     notify(options: any): void;
-    chooseFile<T>(options: any): Promise<T>;
+    chooseFile<T>(options?: any): Promise<T>;
 }
